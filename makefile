@@ -8,3 +8,6 @@ lint:
 
 tests:
 	python -m pytest -vv -cov=app.tests
+
+format:
+	black .

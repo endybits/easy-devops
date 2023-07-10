@@ -9,8 +9,6 @@ def test_returns_dict():
     assert isinstance(response, dict)
 
 
-
-
 def test_valid_name():
     """
     Tests that the function returns a greeting message 
