@@ -19,3 +19,9 @@ jobs:
       - name: Linter
         run: |
           make lint
+      - name: Testing
+        run: |
+          make tests
+      - name: Format
+        run: |
+          make format
