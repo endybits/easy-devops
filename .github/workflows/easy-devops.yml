@@ -10,3 +10,6 @@ jobs:
       - name: hello world
         run:  |
           echo "Hello deployment"
+      - name: Install dependencies
+        run: |
+          make install
